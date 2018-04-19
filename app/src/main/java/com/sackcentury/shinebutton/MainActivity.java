@@ -74,13 +74,13 @@ public class MainActivity extends AppCompatActivity {
         shineButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.e(TAG, "click");
+                Log.e(TAG, "Click");
             }
         });
         shineButton.setOnCheckStateChangeListener(new ShineButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(View view, boolean checked) {
-                Log.e(TAG, "click " + checked);
+                Log.e(TAG, "Checked " + checked);
             }
         });
 

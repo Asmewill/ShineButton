@@ -34,7 +34,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-        compile 'com.sackcentury:shinebutton:0.2.0'
+    compile 'com.sackcentury:shinebutton:0.2.0'
     compile project(path: ':shinebuttonlib')
     //noinspection GradleCompatible
     compile 'com.android.support:appcompat-v7:25.4.0'
